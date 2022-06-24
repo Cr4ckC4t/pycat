@@ -239,7 +239,7 @@ if __name__ == '__main__':
 		formatter_class=argparse.RawDescriptionHelpFormatter,
 		epilog = f'''Examples:
 	(Binary) File Transfer
-		{name} -l > out.dat          # Setup a listener
+		{name} -l > out.dat          # Set up a listener
 		{name} -t [target] < in.dat  # Send the file
 
 	Bind Shell
